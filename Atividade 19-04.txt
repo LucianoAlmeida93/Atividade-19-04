@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    int lu_7869, vet [] = {1,2,3,4,5,6,7};
+    
+    for(lu_7869 = 0; lu_7869 < 7; lu_7869 ++)
+    
+    printf("\nO endereço de cada posição do vetor é: %p", vet + lu_7869);
+
+    return 0;
+}
